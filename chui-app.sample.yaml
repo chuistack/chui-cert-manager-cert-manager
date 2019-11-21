@@ -1,0 +1,5 @@
+version: 0.1.0
+source: git@github.com:chuistack/chui-cert-manager-cert-manager.git
+type: cert-manager
+variant: cert-manager
+name: {{globalAppName}}-{{application}}

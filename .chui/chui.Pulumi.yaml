@@ -1,0 +1,16 @@
+name: {{globalAppName}}-{{application}}
+runtime: nodejs
+description: Configure cert-manager for the {{globalAppName}} cluster.
+template:
+# Might be enabled this way eventually...
+#  cloudflareEmail:
+#    description: The cloudflare email to use if you enable the CloudFlare DNS resolver. Leave blank if not enabled.
+#    default:
+#    secret: true
+#  cloudflareKey:
+#    description: The cloudflare API key to use if you enable the CloudFlare DNS resolver. Leave blank if not enabled.
+#    default:
+#    secret: true
+  letsencryptEmail:
+    description: The email to be used with Let's Encrypt.
+    secret: true
