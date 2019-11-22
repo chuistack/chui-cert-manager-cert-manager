@@ -1,6 +1,6 @@
 name: {{globalAppName}}-{{application}}
 runtime: nodejs
-description: Configure cert-manager for the {{globalAppName}} cluster.
+description: Deploy cert-manager to the {{globalAppName}} cluster.
 template:
 # Might be enabled this way eventually...
 #  cloudflareEmail:

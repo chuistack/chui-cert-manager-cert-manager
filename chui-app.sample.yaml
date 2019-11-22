@@ -3,3 +3,4 @@ source: git@github.com:chuistack/chui-cert-manager-cert-manager.git
 type: cert-manager
 variant: cert-manager
 name: {{globalAppName}}-{{application}}
+pulumiOrgName: {{pulumiOrgName}}
