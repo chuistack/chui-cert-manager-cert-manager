@@ -1,5 +1,7 @@
 {
-    "name": "chui-core",
+    "name": "chui-cert-manager-cert-manager",
+    "description": "Deploys cert-manager to a Chui cluster.",
+    "license": "MIT",
     "devDependencies": {
         "@types/node": "latest"
     },
