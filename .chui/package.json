@@ -1,6 +1,9 @@
 {
     "name": "chui-cert-manager-cert-manager",
     "description": "Deploys cert-manager to a Chui cluster.",
+    "repository": {
+        "url": "https://github.com/chuistack/chui-cert-manager-cert-manager"
+    },
     "license": "MIT",
     "devDependencies": {
         "@types/node": "^13.7.4"
